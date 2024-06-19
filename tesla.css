@@ -1,0 +1,244 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.tesla-img img{ /*logo */
+    margin-top: -30px;
+    width: 120px;
+    margin-left: 3rem;
+}
+.nav-container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top:0px;
+
+}
+
+.menu-bar {
+    position: relative;
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+
+
+
+.menu-bar a{
+    align-items: center;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Segoe UI', ;
+    color: #171A20;
+    font-size: 16px;
+    font-weight: 100;
+
+}
+
+.iconmenu{
+    margin: 16px 50px;
+     font-size: 20px;
+     word-spacing: 16px;
+}
+
+
+.main-img1{ 
+    position: fixed;
+    top: 10px;
+}
+
+
+section {
+    background-size: cover;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+
+}
+
+.model3{
+   position: absolute;
+   top: 13rem;
+   font-size: 50px;
+}
+
+.btn1{
+    width: 260px;
+    height: 37px;
+    margin: 0 11px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+    background: #080808;
+    color: rgb(255, 255, 255);
+}
+.btn2{
+    width: 260px;
+    height: 37px;
+    margin: 0 11px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.btn-model3{
+    position: relative;
+    text-align: center;
+    margin-top: 644px;
+}
+/*model-Y */
+.container-modely{
+    margin-top: 0;
+    height: 800px;
+    background-image: url(image/Homepage-Model-Y-Desktop-APAC-RHD.webp);
+    object-fit: cover;
+    background-size: cover;
+    background-position:center;
+}
+
+.modelY {
+  position: absolute;
+  margin-bottom: 35rem;
+  font-size: 50px;
+}
+
+.btn-modelY{
+    position: relative;
+    text-align: center;
+    margin-top: 644px;
+}
+
+.btn1-modelY{
+    background-color: #080808;
+    color: aliceblue;
+    width: 260px;
+    height: 37px;
+    margin: 0 11px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+.btn2-modelY{
+    width: 260px;
+    height: 37px;
+    margin: 0 11px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+/*         */
+
+.container-teslaPresent{
+    border: 1px solid;
+    margin: 0;
+    height: 900px;
+}
+
+.teslaPresent{
+    position: absolute;
+    margin-bottom: 35rem;
+    color: aliceblue;
+}
+
+.testDrive{
+    color: rgb(252, 251, 251);
+    background: none;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+
+
+/*         */
+
+.container-SolarandPowerwall{
+    background: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Desktop_SolarPanels.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position:center;
+    height: 800px;
+    margin: 0;
+}
+
+.teslaPresent{
+    font-size: 30px;
+}
+.teslaPresent p{
+    font-size: 20px;
+    text-align: center;
+}
+
+/*         */
+
+.container-Accessories{
+    margin: 0;
+    border: 1px solid;
+    height: 800px;
+    background: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Accessories-Desktop-NA-APAC.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position:center;
+}
+
+.Accessories{
+    position: absolute;
+    margin-bottom: 600px;
+    font-size: 50px;
+}
+
+.SolarandPowerwall{
+    position: absolute;
+    margin-bottom: 35rem;
+    font-size: 30px;
+}
+
+.SolarandPowerwall p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn1-Accessories{
+    width: 260px;
+    height: 37px;
+    margin: 0 11px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+
+.container-footer{
+    border: 1px solid;
+    height: 70px;
+    background-color: #080808;
+}
+
+.container-footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    padding: 5px;
+    align-items: center;
+}
+
+.footertag{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+video{
+    position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
